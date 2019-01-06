@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('users/foo', function() {
+    return "FooBar!";
+});
